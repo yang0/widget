@@ -1,0 +1,40 @@
+.price-label{
+	display: inline-block;
+	position: relative;
+	padding: 2px 5px;
+	color: #FFF;
+	margin-right: 4px;
+	background-color: #F1273A;
+	vertical-align: text-bottom;
+	text-align: center;
+
+	i{
+		position: absolute;
+		right: -4px;
+		top: 50%;
+		margin-top: -4px;
+		width: 0;
+		height: 0;
+		line-height: 0;
+		overflow: hidden;
+		display: inline-block;
+		border-color: transparent transparent transparent #f1273a;
+		border-style: dashed dashed dashed solid;
+		border-width: 4px 0 4px 4px;
+		color: #fff;
+	}
+}
+
+
+.pl-big{
+	padding: 2px 10px;
+	font-size: 16px;
+	height: 28px;
+	line-height: 24px;
+
+	i{
+		margin-top: -6px;
+		border-width: 6px 0 6px 6px;
+	}
+
+}

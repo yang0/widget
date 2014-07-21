@@ -1,0 +1,28 @@
+
+@charset "UTF-8";
+
+@import "variable";
+
+.box{
+	border: 1px solid $borderColor;
+	.mt{
+		height: 36px;
+		line-height: 36px;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 0 10px;
+		background-color: #ededed;
+		color: #222;
+	}
+	.mc{
+		padding: 10px;
+	}
+}
+
+.box + .box{
+	margin-top: 15px;
+}
+
+.box-red{
+	border-top: 2px solid red;
+}

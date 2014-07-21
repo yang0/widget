@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>云雀团队开发案例</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="云雀团队：成员三名，纯技术，坐标杭州，一起创业多年。以前开发作品以web和桌面客户端为主，目前正在向移动端方向靠拢。欢迎有市场和运营资源的团队一起合作创业，<strong>QQ137962</strong>">
+    <link rel="canonical" href="/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/yq-ui.css">
+
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+
+    <script src="/lib/jquery-scrollbox/jquery.scrollbox.js"></script>
+    <script src="/js/slide.js"></script>
+    <script src="/js/tabs.js"></script>
+    <script src="/js/goods-focus.js"></script>
+	<script src="/js/popmenu.js"></script>
+
+</head>
+
+
+    <body>
+
+    <header class="navbar navbar-static-top bs-docs-nav w1190 w" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="../" class="navbar-brand">YQ-UI</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://yang0.github.io">云雀团队开发案例</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <style type="text/css">
+  .bs-docs-section{
+    margin-bottom: 60px;
+  }
+</style>
+
+<div class="container bs-docs-container w1190 w">
+
+      <div class="row ">
+        <div >
+
+        <div class="bs-docs-section">
+          <div class="alert alert-info" role="alert">
+              云雀团队常用的页面组件。有第三方的，也有自己开发的。
+          </div>
+        </div>
+
+          <div class="bs-docs-section">
+            <h1 id="wells" class="page-header">多图横向滚动</h1>
+            <p>
+              使用了jquery-scroll插件。css自己定制了一下
+            </p>
+
+            <div class="multi-img-slide">
+              <ul class="clearfix" style=""> 
+                  <li>
+                    <a href=""><img src="images/goods-1.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/goods-2.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/goods-3.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/goods-4.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/goods-5.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/goods-6.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/goods-7.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/goods-8.jpg"></a>
+                    <div>惊喜价：<em>￥</em><strong>24.38</strong></div>
+                  </li>
+              </ul>
+
+            </div>
+          </div>
+
+
+
+
+
+          <div class="bs-docs-section">
+            <h1 id="wells" class="page-header">首焦图滚动</h1>
+            <p>
+              自己写了一个jquery widegt: slide.js。
+            </p>
+
+            <div id="slide_focus" class="slide m" >
+                  
+              <ul class="slide-items" >
+                
+                <li >
+                  <a target="_blank" href="/">
+                    <img src="images/slide-1.jpg" width="710" height="270">
+                  </a>
+                </li>
+                
+                <li >
+                  <a target="_blank" href="/">
+                    <img src="images/slide-2.jpg" width="710" height="270">
+                  </a>
+                </li>
+                
+              </ul>
+              <div class="slide-controls" >
+                
+                <span class="curr">
+                  1
+                </span>
+                
+                <span class="">
+                  2
+                </span>
+                
+              </div>
+            </div>
+
+
+          </div><!-- end bs-docs-section -->
+
+
+
+
+
+          <div class="bs-docs-section">
+            <h1 id="wells" class="page-header">商品列表及标签页</h1>
+            <p>
+              自定义widget: tabs.js
+            </p>
+
+            <div  class="w" >
+              <div id="tabs-demo"  class="yq-tabs" style="height:523px;">
+                <div class="title">
+                  <h2>潮流穿搭</h2>
+                </div>
+
+                <div class="fore1 curr">
+                  <div class="tab-mt">
+                    <h2>潮流女装</h2>
+                  </div>
+
+                  <div class="tab-mc" style="height: 483px;">
+                    
+
+                    <ul class="sku-list">
+
+                      <li class="sku-focus"> 
+                        <a href=""> <img  src="images/goodsbig.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label pl-big">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-1.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-2.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-3.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-4.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-5.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-6.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-7.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+
+
+                      <li > 
+                        <a href=""> <img  src="images/goods-8.jpg" > </a> 
+                        <div class="sku-info"> 
+                          <a href="">【包邮】蕾丝连衣裙夏装2014新款燕子翩夏季女装短袖修身包臀OL</a> 
+                          <span class="price-label ">划算价:<i></i></span> 
+                          <span class="price"> <i>￥</i>57.<em>68</em> <span>￥288.40</span> </span> 
+                        </div> 
+                      </li>
+                      
+                    </ul>
+
+
+
+
+
+                  </div>
+                </div>
+
+
+                <div class="fore2">
+                  <div class="tab-mt">
+                    <h2>精品男装</h2>
+                  </div>
+
+                  <div class="tab-mc">
+                    <div class="leftCol">
+                      left
+                    </div>
+
+                    <div class="rightCol">
+                      right
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fore3">
+                  <div class="tab-mt">
+                    <h2>鞋子箱包</h2>
+                  </div>
+
+                  <div class="tab-mc">
+                    <div class="leftCol">
+                      left
+                    </div>
+
+                    <div class="rightCol">
+                      right
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fore4">
+                  <div class="tab-mt">
+                    <h2>时尚配饰</h2>
+                  </div>
+
+                  <div class="tab-mc">
+                    <div class="leftCol">
+                      left
+                    </div>
+
+                    <div class="rightCol">
+                      right
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!--w1190-->
+
+
+            
+          </div><!-- end bs-docs-section -->
+
+
+
+
+
+
+
+
+
+
+          <div class="bs-docs-section">
+            <h1 id="wells" class="page-header">方块</h1>
+            <p>
+              
+            </p>
+
+            <div class="box box-red" style="width:300px;">
+              <div class="mt">
+                我的订单提醒
+              </div>
+              <div class="mc">
+                <ul>
+                  <li><a href="">待填写订单号：</a> <strong>0</strong></li>
+                  <li><a href="">订单号有误：</a><strong>0</strong></li>
+                  <li><a href="">待审核订单号:</a><strong>0</strong></li>
+                  <li><a href="">待返金额：</a><strong>0</strong></li>
+                  <li><a href="">申诉中：</a><strong>0</strong></li>
+                </ul>
+
+            </div>
+
+
+            
+          </div><!-- end bs-docs-section -->
+
+
+
+
+
+
+
+
+          <div class="bs-docs-section">
+            <h1 id="wells" class="page-header">商品首焦图</h1>
+            <p>
+              自定义widget: goods-focus.js
+            </p>
+
+            <div id="goodsFocus" class="goods-focus">
+              <div class="stage">
+                <a href="">
+                  <img src="images/goods-1.jpg" width="350" height="350">
+                </a>
+              </div>
+              <ul class="sprites">
+                <li goods-img="images/goods-1.jpg" class="curr"><img  src="images/goods-1.jpg"></li>
+                <li goods-img="images/goods-2.jpg"><img  src="images/goods-2.jpg"></li>
+                <li goods-img="images/goods-3.jpg"><img  src="images/goods-3.jpg"></li>
+                
+              </ul>
+            </div>
+
+
+            
+          </div><!-- end bs-docs-section -->
+
+
+
+<!--
+
+
+          <div class="bs-docs-section">
+            <h1 id="wells" class="page-header">下拉菜单</h1>
+            <p>
+              
+            </p>
+
+            <div  class="w1190 w" >
+                <div class="leftCol popmenu">
+                  <div class="mt">
+                      <h2>
+                          <a href="">
+                              全部商品分类
+                              <b></b>
+                          </a>
+                      </h2>
+                  </div>
+                  <div class="mc">
+                      <div class="item fore1">
+                          <h3>
+                              <b>&gt;</b>
+                              <s class="i1"></s>
+                              <a href="/goods/products?category=1">潮流女装</a>
+                          </h3>
+                          
+
+                          <div class="item-mc">
+                            <div class="s-item">
+                                <ul class="fore1">
+                                    <li><a href="">上衣</a></li>
+                                    <li><a href="">裤子</a></li>
+                                    <li><a href="">裙子</a></li>
+                                    <li><a href="">内衣</a></li>
+                                    <li><a href="">女裤</a></li>
+                                    <li><a href="">童装</a></li>
+                                    <li><a href="">女上装</a></li>
+                                    <li><a href="">中年女装</a></li>
+                                    <li><a href="">其他</a></li>
+                                    <li><a href="">名品馆女装</a></li>
+                                </ul>
+
+                            </div>
+                                
+                        </div>
+
+                          
+                      </div>
+
+                      <div class="item fore2">
+                          <h3>
+                              <b>&gt;</b>
+                              <s class="i1"></s>
+                              <a href="/goods/products?category=2">精品男装</a>
+                          </h3>
+
+                          <div class="item-mc">
+                            <div class="s-item">
+                                <ul class="fore1">
+                                    <li><a href="">上衣</a></li>
+                                    <li><a href="">裤子</a></li>
+                                    <li><a href="">裙子</a></li>
+                                    <li><a href="">内衣</a></li>
+                                    <li><a href="">女裤</a></li>
+                                    <li><a href="">童装</a></li>
+                                    <li><a href="">女上装</a></li>
+                                    <li><a href="">中年女装</a></li>
+                                    <li><a href="">其他</a></li>
+                                    <li><a href="">名品馆女装</a></li>
+                                </ul>
+
+                            </div>
+                                
+                        </div>
+                          
+                      </div>
+
+
+                  </div>
+              </div>
+            </div>
+
+
+            
+          </div>
+-->
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+
+
+
+$(function () {
+
+
+  //多图滚动
+  $(".multi-img-slide").scrollbox({
+      direction: 'h',
+      switchItems: 6,
+      distance: 1176
+    });
+
+
+
+  //首焦图
+  $("#slide_focus").slide({width:"710", height:"270"});
+
+
+ 
+});
+
+
+
+
+
+
+  
+</script>
+
+    <footer class="site-footer">
+
+<div class="w980 w">云雀团队：成员三名，纯技术，坐标杭州，一起创业多年。以前开发作品以web和桌面客户端为主，目前正在向移动端方向靠拢。欢迎有市场和运营资源的团队一起合作创业，<strong>QQ137962</strong></div>
+
+  
+
+</footer>
+
+
+    </body>
+</html>

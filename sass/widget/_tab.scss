@@ -1,0 +1,76 @@
+.yq-tabs{
+	position:relative;
+	height:538px;
+	border:1px solid #ccc;
+	padding-top: 36px;
+	background: #f9f9f9;
+
+	h2{
+		height:36px;
+		line-height:36px;
+		font-size:14px;
+		font-weight:bold;
+		color:#333;
+	}
+
+	.title{
+		position: absolute;
+		top: 0px;
+		left: 20px;
+	}
+
+
+	.tab-mt{
+		position:absolute;
+		top:0;
+		width:160px;
+		height:36px;
+		//border:1px solid #DEDEDE;
+		border-top:none;
+		background:#F9F9F9;
+		line-height:36px;
+		text-align:center;
+	}
+
+	$marginLeft: 500px;
+	.fore1 .tab-mt{
+		left: 0px + $marginLeft;
+	}
+	.fore2 .tab-mt{
+		left: 161px + $marginLeft;
+	}
+	.fore3 .tab-mt{
+		left: 322px + $marginLeft;
+	}
+	.fore4 .tab-mt{
+		left: 483px + $marginLeft;
+	}
+
+
+	.curr .tab-mt{
+		height: 37px;
+		border-bottom:none;
+		background:#fff;
+		border-right: 1px solid #dedede;
+		border-left: 1px solid #dedede;
+	}
+	.fore1 .tab-mt{
+		border-left: 0px;
+	}
+
+
+
+	.tab-mc{
+		overflow:hidden;
+		height:484px;
+		//padding:3px 10px;
+		display: none;
+		background: #fff;
+		border-top: 1px solid #dedede;
+		width: 1188px;
+	}
+	.curr .tab-mc{
+		display: block;
+	}
+
+}

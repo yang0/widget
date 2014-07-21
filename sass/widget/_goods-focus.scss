@@ -1,0 +1,34 @@
+.goods-focus{
+	.stage{
+		width: 352px;
+		height: 352px;
+		border: 1px solid #dcdcdc;
+
+		img{
+			width: 350px;
+			height: 350px;
+		}
+	}
+	.sprites{
+		margin-top:10px;
+		margin-bottom: 10px;
+		li{
+			cursor: pointer;
+			display: inline-block;
+			border: 1px solid #dcdcdc;
+			width: 62px;
+			height: 62px;
+			margin-right: 5px;
+			font-size: 0;
+			img{
+				width: 60px;
+				height: 60px;
+			}
+		}
+
+		.curr{
+			border-color: red;
+		}
+		
+	}
+}

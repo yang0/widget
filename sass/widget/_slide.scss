@@ -1,0 +1,38 @@
+/*slide*/
+.slide{
+	position:relative;
+	overflow:hidden;
+	ul{
+		position:absolute;
+		top:0;
+		overflow:hidden;
+		li{
+			overflow:hidden;
+		}
+	}
+
+	.slide-controls{
+		position:absolute;
+		left:0;
+		bottom:0;
+		height:32px;
+		padding:0 8px 10px;
+		text-align:right;
+
+		span{
+			display:inline-block;
+			width:22px;
+			height:22px;
+			border-radius:12px;
+			margin:0 2px;
+			background:#999999;
+			line-height:22px;
+			text-align:center;
+			cursor:default;
+			color:#FFF;
+		}
+		.curr{
+			background:#A26742;
+		}
+	}
+}

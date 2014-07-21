@@ -1,0 +1,35 @@
+.multi-img-slide{
+	overflow:hidden;
+	height:233px;
+	background: #fff;
+	border-top: 1px solid #dedede;
+	width: 1180px;
+	padding: 0px 10px 0px 2px;
+
+	ul {
+		width: 3558px;
+		height: 600px;
+		margin: 0;
+		display: inline-block;
+		font-size: 0px;
+
+		li{
+			display: inline-block;
+ 			margin: 10px 0 10px 10px;
+ 			width: 186px;
+ 			overflow: hidden;
+ 			height: 228px;
+
+ 			img{
+ 				width: 180px;
+ 				height: 180px;
+ 			}
+ 			
+ 			//border: 1px solid #ccc;
+			}
+	}
+
+	ul li{
+		font-size: 14px;
+	}
+}

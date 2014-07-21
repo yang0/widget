@@ -1,0 +1,70 @@
+/* 显示商品列表 */
+
+.sku-list{
+	li{
+		float: left;
+		padding: 5px;
+		width: 197px;
+		height: 238px;
+		overflow: hidden;
+	}
+
+	.sku-info{
+		padding-top: 5px;
+		line-height: 18px;
+
+		a{
+			height: 15px;
+			line-height: 15px;
+			overflow: hidden;
+			display: block;
+		}
+
+		.price{
+			color: #F1273A;
+			font-size: 20px;
+			line-height: 30px;
+			i, em{
+				font-size: 16px;
+			}
+			span{
+				text-decoration: line-through;
+				color: #b9b9b9;
+			}
+		}
+
+	}
+
+
+	.sku-focus{
+		width: 394px;
+		height: 477px;
+
+		img{
+			width: 384px;
+			height: 384px;
+		}
+
+		.sku-info{
+			a{
+				line-height: 20px;
+				font-size: 16px;
+				height: 40px;
+			}
+			
+		}
+
+
+		.price{
+			font-size: 28px;
+			line-height: 42px;
+			i, em{
+				font-size: 18px;
+			}
+			span{
+				font-size: 18px;
+				line-height: 27px;
+			}
+		}
+	}
+}

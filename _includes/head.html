@@ -1,0 +1,24 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/lib/bootstrap/dist/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/lib/bootstrap/dist/css/bootstrap-theme.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/yq-ui.css" | prepend: site.baseurl }}">
+
+
+    <script src="{{ "/lib/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/lib/jquery-ui/ui/minified/jquery-ui.min.js" | prepend: site.baseurl }}"></script>
+
+    <script src="{{ "/lib/jquery-scrollbox/jquery.scrollbox.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/slide.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/tabs.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/goods-focus.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/js/popmenu.js" | prepend: site.baseurl }}"></script>
+
+</head>
